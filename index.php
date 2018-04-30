@@ -87,8 +87,8 @@ $toyota = new vehicle("54854858");
 echo "This Toyota's license plate number is " . $toyota->getLicensePlate() . "<br>";
 
 $honda = new nissanAltima("false");
-echo "Does this honda belong to Marlon? " . $honda->belongsToMarlon . "<br>";
+echo "Does this Honda belong to Marlon? " . $honda->belongsToMarlon . "<br>";
 
 $wagon = new horseAndBuggy(5);
-echo "I have a wagon, it has " . $wagon->getNumHorses() . " horses";
+echo "I have a VW, it has " . $wagon->getNumHorses() . " horses";
 
